@@ -24,7 +24,7 @@ const LoginPage = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post('http://localhost:8080/admin/login', null, {
+      const response = await axios.post('https://studentlearning-springbootbackend.onrender.com/admin/login', null, {
         params: {
           email: email,
           password: password,
